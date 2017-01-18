@@ -1,0 +1,42 @@
+{
+  "name": "deref-simple",
+  "version": "1.0.4",
+  "description": "Dereference for json schemas",
+  "main": "lib/index.js",
+  "scripts": {
+    "unit": "istanbul test _mocha -- --recursive test/",
+    "lint": "eslint lib",
+    "test": "npm run lint && npm run unit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/asterx/deref-simple.git"
+  },
+  "keywords": [
+    "json",
+    "deref",
+    "schema"
+  ],
+  "author": "Michael Vaganov <asterx@asterx.me>",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/asterx/deref-simple/raw/master/LICENSE"
+    }
+  ],
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "babel-eslint": "^6.0.0",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.2.0",
+    "eslint": "^2.5.3",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.4.5",
+    "proxyquire": "^1.7.9",
+    "sinon": "^1.17.3",
+    "sinon-chai": "^2.8.0"
+  },
+  "engine": {
+    "node": ">=4.0"
+  }
+}
