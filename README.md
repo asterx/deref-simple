@@ -1,4 +1,3 @@
-<img src="./public/logo.png" width="100" align="left">
 #&nbsp;JSON Schema deref
 <br/>
 ```
